@@ -2,12 +2,30 @@ html, body {
 	height: 100%;
 }
 
+html, #container {		/*added 10-30-17 for accomodating contact.html*/
+	margin: 0;		/*added 10-30-17 for accomodating contact.html*/
+	padding: 0;		/*added 10-30-17 for accomodating contact.html*/
+	height: 100%;
+	
+}
+
 
 body {
 	width: 960px;
 	border: 1px solid white;
 	justify-content: center;
 	margin: auto;
+
+}
+
+#container{						/*added 10-30-17 for accomodating contact.html*/
+	min-height:100%;
+   	position:relative;
+	width: 960px;
+	border: 1px solid white;
+	justify-content: center;
+	margin: auto;
+	
 }
 
 header {
@@ -17,9 +35,18 @@ header {
 	border: 0.5px solid #cccccc;
 	border-bottom: 1px solid gray;
 
-	
+}
+
+#header {						/*added 10-30-17 for accomodating contact.html*/
+	background-color: #ffffff;
+	padding: 10px;
+	width: 960px;
+	height: 75px;
+	border: 0.5px solid #cccccc;
+	border-bottom: 1px solid white;
 
 }
+
 
 h1{
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -69,6 +96,24 @@ li,a {
 
 }
 
+/*.content-box2 {			/*
+	width: 960px;
+	background-color: gray;
+	height: 600px;
+	margin: auto;
+	padding: 0;
+
+}*/ /*edited out while experimenting for contact.html*/
+
+#body{					/*added 10-30-17 for accomodating contact.html*/
+	padding: 10px;
+	padding-bottom: 50px; /*height of footer*/
+	width: 960px;
+	background-color: gray;
+	height: 600px;
+	margin: auto;
+}							
+
 
 #aboutme {
 	width: 650px;
@@ -80,6 +125,22 @@ li,a {
 	padding: 5px 5px 5px 5px;
 	background-color: #ffffff;
 
+}
+
+#contactme {
+	width: 650px;
+	height: 450px;
+	border: 1px solid #dddddd;
+	margin: 10px 0px 5px 15px;
+	display:inline-block;
+	float: left;
+	padding: 10px 5px 5px 10px;
+	background-color: #ffffff;
+
+}
+
+clearfix{
+    clear:both;
 }
 
 #line-below1{
@@ -105,12 +166,23 @@ p {
 }
 
 
-clearfix{
-    clear:both;
+ 
+form {
+	width: 250px;
+	height: 250px;
+	margin: 20px 0px 10px 20px;
+	padding: 10px 5px 5px 30px;
+	
 }
 
+/*#namehdg, #emailhdg, #msghdg, #namebox, #emailbox, #msgbox {
+	margin: 0px 0px 0px 15px;
+	padding-left: 5px;
 
-#connect{
+}*/
+
+
+#connect {
 	/*display:inline-block;*/
 	float: right;
 	width: 270px;
@@ -156,4 +228,27 @@ footer{
 	text-align: left;
 	color: #4aaaa5;
 	
+}
+/*removed to experiment with contact.html
+#contactfooter {
+	width: 960px;
+	background-color: #666666;
+	height: 50px;
+	text-align: center;
+	padding: 25px 0px 5px 0px;
+	margin:auto;
+	border-top: 8px solid #4aaaa5;
+	color: #4aaaa5;
+	position: bottom;
+}*/
+
+#footer {					/*added 10-30-17 for accomodating contact.html*/
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #666666;
+	color: #4aaaa5;
+	border-top: 8px solid #4aaaa5;
+
 }
