@@ -1,11 +1,13 @@
+html, body {
+	height: 100%;
+}
+
+
 body {
 	width: 960px;
 	border: 1px solid white;
 	justify-content: center;
 	margin: auto;
-	
-
-
 }
 
 header {
@@ -135,6 +137,7 @@ footer{
 	margin:auto;
 	border-top: 8px solid #4aaaa5;
 	color: #4aaaa5;
+	margin-top: -50px;
 }
 
 #heading1 {
