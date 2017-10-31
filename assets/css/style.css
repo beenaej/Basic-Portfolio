@@ -86,7 +86,7 @@ li,a {
 .content-box {
 	width: 960px;
 	background-color: gray;
-	height: 500px;
+	height: 600px;
 	margin: auto;
 	padding: 0;
 
@@ -106,10 +106,10 @@ li,a {
 
 #aboutme {
 	width: 650px;
-	height: 400px;
+	height: 470px;
 	border: 1px solid #dddddd;
-	margin: 10px 0px 5px 15px;
-	/*display:inline-block;*/
+	margin: 30px 0px 5px 30px;
+	display:inline-block;
 	float: left;
 	padding: 5px 5px 5px 5px;
 	background-color: #ffffff;
@@ -211,8 +211,8 @@ div#rightBoxesBox {			/*added 10-30-17 for accomodating portfolio.html*/
 #connect {
 	/*display:inline-block;*/
 	float: right;
-	width: 270px;
-	margin: 10px 0px 0px 5px;
+	width: 250px;
+	margin: 30px 0px 5px 5px;
 	border: 1px solid #dddddd;
 	height: 150px;
 	background-color: #ffffff;
