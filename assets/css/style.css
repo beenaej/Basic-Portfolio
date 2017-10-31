@@ -21,30 +21,26 @@ body {
 #container{						/*added 10-30-17 for accomodating contact.html*/
 	min-height:100%;
    	position:relative;
-	width: 960px;
-	border: 1px solid white;
-	justify-content: center;
-	height: 100%;
-	/*margin: auto;  Remove to test out contact.html */
-	
+   	border: 1px solid white;
+	margin: auto;
 }
 
 header {
 	width: 960px;
 	background-color: #ffffff;
 	height: 75px;
-	border: 0.5px solid #cccccc;
-	border-bottom: 1px solid gray;
+	/*border: 0.5px solid #cccccc;
+	border-bottom: 1px solid gray;*/
+	border-style: hidden;
 
 }
 
 #header {						/*added 10-30-17 for accomodating contact.html*/
 	background-color: #ffffff;
-	/*padding: 10px; commented out testing contact.html*/
-	height: 73px;		
-	border: 0.5px solid #cccccc;
-	border-bottom: 1px solid white;
-
+	height: 73px;
+	border-style: hidden;
+	
+	
 }
 
 
@@ -99,7 +95,7 @@ li,a {
 
 
 #mainBody{					/*added 10-30-17 for accomodating contact.html*/
-	padding: 10px;
+	padding: 0px;
 	padding-bottom: 50px; /*height of footer*/
 	/*width: 960px;commented out to experiment with contact.html*/
 	background-color: gray;
@@ -122,9 +118,9 @@ li,a {
 
 #contactme {
 	width: 620px;
-	height: 450px;
+	height: 400px;
 	border: 1px solid #dddddd;
-	margin: 10px 0px 5px 15px;
+	margin: 30px 0px 5px 30px;
 	display:inline-block; 
 	float: left;
 	padding: 5px 5px 5px 5px;
@@ -132,9 +128,23 @@ li,a {
 
 }
 
+#portfolio_box {		/*added 10-30-17 for accomodating portfolio.html*/
+	width: 620px;
+	height: 475px;
+	border: 1px solid #dddddd;
+	margin: 30px 0px 5px 30px;
+	display:inline-block; 
+	float: left;
+	padding: 5px;
+	background-color: #ffffff;
+	justify-content: center;
+}
+
+
 clearfix{
     clear:both;
 }
+
 
 #line-below1{
 	border-bottom: 2px solid gray; 
@@ -147,6 +157,13 @@ clearfix{
 	width: 200px;
 	margin: 0px 5px 10px 35px;
 
+  }	
+
+  #pfline-below{		/*added 10-30-17 for accomodating portfolio.html*/
+	border-bottom: 2px solid gray; 
+	width: 500px;
+	margin: 5px 2px 0px 50px;
+	padding: 0px;
   }	
 
 p { 
@@ -168,6 +185,27 @@ form {
 	
 }
 
+div.imgbox {				/*added 10-30-17 for accomodating portfolio.html*/
+    width: 40px;
+    height: 20px;
+    margin: 5px 10px 40px 10px;
+    padding: 30px 10px 30px 10px;
+}
+
+div#leftBoxesBox {			/*added 10-30-17 for accomodating portfolio.html*/
+    position: absolute;
+    left: 0;
+    width: 20em;
+    margin-left: 100px;
+}
+
+div#rightBoxesBox {			/*added 10-30-17 for accomodating portfolio.html*/
+    position: absolute;
+    left: 13em;
+    width: 20em;
+    margin-left: 100px;
+}
+
 
 
 #connect {
@@ -184,8 +222,8 @@ form {
 #connect2 {
 	/*display:inline-block;*/
 	float: right;
-	width: 270px;
-	margin: 10px 0px 0px 5px;
+	width: 250px;
+	margin: 30px 0px 5px 5px;
 	border: 1px solid #dddddd;
 	height: 150px;
 	background-color: #ffffff;
@@ -208,6 +246,7 @@ footer{
 	border-top: 8px solid #4aaaa5;
 	color: #4aaaa5;
 	margin-top: -50px;
+	font-family: 'Arial', 'Helvetic Neue', Helvetica, sans-serif;
 }
 
 #heading1 {
@@ -228,6 +267,15 @@ footer{
 	
 }
 
+#pfHeading1 {			/*added 10-30-17 for accomodating portfolio.html*/
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 30px 0px 5px 0px;
+	margin: 0px 0px 5px 50px;
+	text-align: left;
+	color: #4aaaa5;
+	
+}
+
 
 #footer {					/*added 10-30-17 for accomodating contact.html*/
 	position: absolute;	
@@ -239,6 +287,6 @@ footer{
 	border-top: 8px solid #4aaaa5;
 	text-align: center;
 	padding: 25px 0px 5px 0px;
-	margin: auto; 
-		
+	/*margin: auto;*/ 
+
 }
